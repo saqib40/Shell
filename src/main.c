@@ -3,8 +3,8 @@
 #include "../include/everything.h"
 
 void shell_loop(void) {
-    char *line;
-    char **args;
+    char *line; // array of characters
+    char **args; // array of pointers to tokens
     int status;
     do {
         printf(">");
