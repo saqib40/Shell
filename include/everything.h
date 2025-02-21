@@ -53,7 +53,7 @@ int shell_exit(char **args) {
 
 }
 
-// Declare the built-in command list
+// some global variables
 extern char *builtin_str[];
 extern int (*builtin_func[]) (char **);
 int shell_num_builtins();
