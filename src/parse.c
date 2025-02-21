@@ -1,7 +1,4 @@
-#include "stdio.h"
-#include "stdlib.h"
-#define SHELL_TOK_BUFSIZE 64
-#define SHELL_TOK_DELIM " \t\r\n\a"
+#include "../include/everything.h"
 
 char **shell_parse_line(char* line) {
     int bufsize = SHELL_TOK_BUFSIZE;

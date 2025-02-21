@@ -1,5 +1,3 @@
-#include "stdio.h"
-#include "stdlib.h"
 #include "../include/everything.h"
 
 void shell_loop(void) {

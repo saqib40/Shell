@@ -1,6 +1,4 @@
-#include "stdio.h"
-#include "stdlib.h"
-#define SHELL_BUFSIZE 1024
+#include "../include/everything.h"
 
 char *shell_read_line(void) {
     int bufsize = SHELL_BUFSIZE;
