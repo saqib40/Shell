@@ -6,7 +6,7 @@ INCLUDES = -I$(INCLUDE_DIR)
 SRC = main.c parse.c process.c read.c \
       built-ins/cd.c built-ins/exit.c built-ins/export.c \
       built-ins/help.c built-ins/pwd.c built-ins/unset.c
-
+#SRC = $(wildcard *.c built-ins/*.c)
 OBJ = $(SRC:.c=.o)
 TARGET = shell
 
