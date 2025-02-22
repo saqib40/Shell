@@ -3,10 +3,10 @@ CFLAGS = -Wall -Wextra -g
 INCLUDE_DIR = ../include
 INCLUDES = -I$(INCLUDE_DIR)
 
-#SRC = src/main.c src/parse.c src/process.c src/read.c \
-      src/built-ins/cd.c src/built-ins/exit.c src/built-ins/export.c \
-      src/built-ins/help.c src/built-ins/pwd.c src/built-ins/unset.c
-SRC = $(wildcard src/*.c src/built-ins/*.c)
+SRC = main.c parse.c process.c read.c \
+      built-ins/cd.c built-ins/exit.c built-ins/export.c \
+      built-ins/help.c built-ins/pwd.c built-ins/unset.c
+
 OBJ = $(SRC:.c=.o)
 TARGET = shell
 
