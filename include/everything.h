@@ -12,7 +12,7 @@
 #include <errno.h>
 #include <string.h>
 
-char **shell_parse_line(void) {
+char **shell_parse_line(char* line) {
 
 }
 
